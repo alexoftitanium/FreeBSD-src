@@ -4,7 +4,7 @@
 
 machine		amd64
 
-options 	EARLY_AP_STARTUP
+options		EARLY_AP_STARTUP
 
 # Bus support.
 device		isa
@@ -29,8 +29,8 @@ options 	NEW_PCIB
 
 options 	NETLINK			# netlink(4) support
 
-options         FUSEFS
-options         VIMAGE
-makeoptions     WITH_EXTRA_TCP_STACKS=1
-options         TCPHPTS
-options         RATELIMIT
+#options         FUSEFS
+#options         VIMAGE
+#makeoptions     WITH_EXTRA_TCP_STACKS=1
+#options         TCPHPTS
+#options         RATELIMIT
